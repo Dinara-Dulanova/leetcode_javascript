@@ -29,7 +29,7 @@ function inorderTraversal(root) {
 
         current = stack.pop();
         rez.push(current.val)
-        current = current.ri
+        current = current.right
     }
 
     return rez
